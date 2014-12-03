@@ -39,7 +39,7 @@
         self.myAllArray = @[@"NKDBarcode",@"NKDUPCEBarcode",@"NKDCode128Barcode",@"NKDCode39Barcode",@"NKDEAN13Barcode",@"NKDExtendedCode39Barcode",@"NKDModifiedPlesseyBarcode",@"NKDPostnetBarcode",@"NKDRoyalMailBarcode",@"NKDUPCABarcode",@"NKDUPCEBarcode"];
     }else if (self.barcodesType==1){
         
-        self.myAllArray = @[@"kBarcodeFormatAztec",@"kBarcodeFormatCodabar",@"kBarcodeFormatCode39",@"kBarcodeFormatCode93",@"kBarcodeFormatCode128",@"kBarcodeFormatDataMatrix",@"kBarcodeFormatEan8",@"kBarcodeFormatEan13",@"kBarcodeFormatITF",@"kBarcodeFormatMaxiCode",@"kBarcodeFormatPDF417",@"kBarcodeFormatQRCode",@"kBarcodeFormatRSS14",@"kBarcodeFormatRSSExpanded",@"kBarcodeFormatUPCA",@"kBarcodeFormatUPCE",@"kBarcodeFormatUPCE"];
+        self.myAllArray = @[@"kBarcodeFormatAztec",@"kBarcodeFormatCodabar",@"kBarcodeFormatCode39",@"kBarcodeFormatCode93",@"kBarcodeFormatCode128",@"kBarcodeFormatDataMatrix",@"kBarcodeFormatEan8",@"kBarcodeFormatEan13",@"kBarcodeFormatITF",@"kBarcodeFormatMaxiCode",@"kBarcodeFormatPDF417",@"kBarcodeFormatQRCode",@"kBarcodeFormatRSS14",@"kBarcodeFormatRSSExpanded",@"kBarcodeFormatUPCA",@"kBarcodeFormatUPCE",@"kBarcodeFormatUPCEANExtension"];
     }else{
         
         self.myAllArray = @[@"NKDBarcode",@"NKDUPCEBarcode",@"NKDCode128Barcode",@"NKDCode39Barcode",@"NKDEAN13Barcode",@"NKDExtendedCode39Barcode",@"NKDModifiedPlesseyBarcode",@"NKDPostnetBarcode",@"NKDRoyalMailBarcode",@"NKDUPCABarcode",@"NKDUPCEBarcode"];

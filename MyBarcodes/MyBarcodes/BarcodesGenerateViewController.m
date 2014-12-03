@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 DanDanChina. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BarcodesGenerateViewController.h"
 #import "SVProgressHUD.h"
 #import "BarcodesGenerateSettingViewController.h"
 #import "UIImage-NKDBarcode.h"
@@ -25,7 +25,7 @@
 #import "NKDUPCEBarcode.h"
 #import "ZXingObjC.h"
 
-@interface ViewController ()<UITextFieldDelegate,BarcodesGenerateSettingsDelegate>
+@interface BarcodesGenerateViewController ()<UITextFieldDelegate,BarcodesGenerateSettingsDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *barcodesImageView;
 @property (weak, nonatomic) IBOutlet UITextField *myTextField;
@@ -36,7 +36,7 @@
 
 @end
 
-@implementation ViewController
+@implementation BarcodesGenerateViewController
 
 - (void)viewDidLoad
 {
@@ -168,8 +168,8 @@
                 [self zxingBarcodesGenerate:kBarcodeFormatUPCA];
             }else if ([self.barcodesType isEqualToString:@"kBarcodeFormatUPCE"]){
                 
-                [self zxingBarcodesGenerate:kBarcodeFormatUPCE];
-            }else if ([self.barcodesType isEqualToString:@"kBarcodeFormatUPCE"]){
+                [self zxingBarcodesGenerate:kBarcodeFormatUPCEANExtension];
+            }else if ([self.barcodesType isEqualToString:@"kBarcodeFormatUPCEANExtension"]){
                 
                 [self zxingBarcodesGenerate:kBarcodeFormatUPCE];
             }else{

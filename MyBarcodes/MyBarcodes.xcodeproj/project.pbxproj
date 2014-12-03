@@ -14,7 +14,7 @@
 		A53B70B21A2DFBD600205798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B70B11A2DFBD600205798 /* main.m */; };
 		A53B70B61A2DFBD600205798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B70B51A2DFBD600205798 /* AppDelegate.m */; };
 		A53B70B91A2DFBD600205798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53B70B71A2DFBD600205798 /* Main.storyboard */; };
-		A53B70BC1A2DFBD600205798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B70BB1A2DFBD600205798 /* ViewController.m */; };
+		A53B70BC1A2DFBD600205798 /* BarcodesGenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53B70BB1A2DFBD600205798 /* BarcodesGenerateViewController.m */; };
 		A53B70BE1A2DFBD600205798 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53B70BD1A2DFBD600205798 /* Images.xcassets */; };
 		A53B70C51A2DFBD600205798 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B70C41A2DFBD600205798 /* XCTest.framework */; };
 		A53B70C61A2DFBD700205798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B70A51A2DFBD600205798 /* Foundation.framework */; };
@@ -317,8 +317,8 @@
 		A53B70B41A2DFBD600205798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A53B70B51A2DFBD600205798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A53B70B81A2DFBD600205798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A53B70BA1A2DFBD600205798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A53B70BB1A2DFBD600205798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A53B70BA1A2DFBD600205798 /* BarcodesGenerateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodesGenerateViewController.h; sourceTree = "<group>"; };
+		A53B70BB1A2DFBD600205798 /* BarcodesGenerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodesGenerateViewController.m; sourceTree = "<group>"; };
 		A53B70BD1A2DFBD600205798 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A53B70C31A2DFBD600205798 /* MyBarcodesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBarcodesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53B70C41A2DFBD600205798 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -954,8 +954,8 @@
 				A53B70B41A2DFBD600205798 /* AppDelegate.h */,
 				A53B70B51A2DFBD600205798 /* AppDelegate.m */,
 				A53B70B71A2DFBD600205798 /* Main.storyboard */,
-				A53B70BA1A2DFBD600205798 /* ViewController.h */,
-				A53B70BB1A2DFBD600205798 /* ViewController.m */,
+				A53B70BA1A2DFBD600205798 /* BarcodesGenerateViewController.h */,
+				A53B70BB1A2DFBD600205798 /* BarcodesGenerateViewController.m */,
 				A5E714041A2E8AB8009DE3C1 /* BarcodesGenerateSettingViewController.h */,
 				A5E714051A2E8AB8009DE3C1 /* BarcodesGenerateSettingViewController.m */,
 				A5E714061A2E8AB8009DE3C1 /* BarcodesGenerateSettingViewController.xib */,
@@ -2030,7 +2030,7 @@
 				A53B711C1A2DFC2300205798 /* NKDModifiedPlesseyHexBarcode.m in Sources */,
 				A5E716C01A2EE26B009DE3C1 /* ZXCode39Reader.m in Sources */,
 				A5E716401A2EE26A009DE3C1 /* ZXBookmarkDoCoMoResultParser.m in Sources */,
-				A53B70BC1A2DFBD600205798 /* ViewController.m in Sources */,
+				A53B70BC1A2DFBD600205798 /* BarcodesGenerateViewController.m in Sources */,
 				A53B71121A2DFC2300205798 /* NKDBarcodeOffscreenView.m in Sources */,
 				A5E716B11A2EE26B009DE3C1 /* ZXRSSExpandedGeneralAppIdDecoder.m in Sources */,
 				A5E716C81A2EE26B009DE3C1 /* ZXITFReader.m in Sources */,
