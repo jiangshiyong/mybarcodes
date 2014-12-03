@@ -71,7 +71,6 @@
   return self;
 }
 
-
 #pragma mark - Property Getters
 
 - (CALayer *)layer {
